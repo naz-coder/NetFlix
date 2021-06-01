@@ -10,7 +10,7 @@ function selectItem(e){
     this.classList.add('tab-border');
     // Grab content item from DOM
     const tabContentItem = document.querySelector(`#${this.id}-content`);
-    console.log(tabContentItem)
+    
     // Add show class
     tabContentItem.classList.add('show');
 }
