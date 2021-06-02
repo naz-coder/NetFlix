@@ -294,7 +294,7 @@ img {
         font-size: 1rem;
     }
  }
- @media (max-width: 400px){
+ @media (max-width: 768px){
     .showcase::after{
         box-shadow: inset 10px 10px 100px #000000, inset -10px -10px 100px #000000;
     }
